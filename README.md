@@ -11,11 +11,11 @@ Guardado en Archivo: Guarda la tabla generada en un archivo de texto.
 ##Cómo Utilizar
 La aplicación utiliza argumentos de línea de comandos para la entrada del usuario. Aquí están las opciones disponibles:
 
-*b (alias base): El número base para la tabla de multiplicar. Este es un argumento requerido.
-*l (alias limit): El límite para la tabla de multiplicar. Por defecto es 10.
-*s (alias show): Si se establece en verdadero, la tabla de multiplicar se mostrará en la consola. Por defecto es falso.
-*n (alias name): El nombre del archivo de salida. Por defecto es 'tabla-de-multiplicar'.
-*d (alias destination): La carpeta de destino para el archivo de salida. Por defecto es 'outputs'.
+-b (alias base): El número base para la tabla de multiplicar. Este es un argumento requerido.
+-l (alias limit): El límite para la tabla de multiplicar. Por defecto es 10.
+-s (alias show): Si se establece en verdadero, la tabla de multiplicar se mostrará en la consola. Por defecto es falso.
+-n (alias name): El nombre del archivo de salida. Por defecto es 'tabla-de-multiplicar'.
+-d (alias destination): La carpeta de destino para el archivo de salida. Por defecto es 'outputs'.
 
 Puedes ejecutar la aplicación con estos argumentos de la siguiente manera:
 node src/app.ts --base 5 --limit 20 --show --name mi-tabla --destination mi-carpeta
